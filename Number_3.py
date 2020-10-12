@@ -1,3 +1,3 @@
-my_tuple = (3, 1, 4, 5, 2)
-sorts = lambda x: sorted(x)
-print(tuple(sorts(my_tuple)))
+my_list = [('English', 88), ('Science', 90), ('Maths', 97), ('Social sciences', 82)]
+my_list.sort(key=lambda x:x[0])
+print(my_list)
